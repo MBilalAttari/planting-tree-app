@@ -10,7 +10,7 @@ import { getDatabase } from "firebase/database";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCyftFcP65S0RNaRh6gd_S-9gWZJTifoTs",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API,
   authDomain: "tree-planting-maps.firebaseapp.com",
   databaseURL: "https://tree-planting-maps-default-rtdb.firebaseio.com",
   projectId: "tree-planting-maps",
